@@ -9,11 +9,11 @@ import { Meme } from "@/schemas/meme";
 export class MemeRepository {
   constructor() {
     this.memeUrls = [
-      "https://i.imgflip.com/1bij.jpg", // "One Does Not Simply"
-      "https://i.imgflip.com/26am.jpg", // "Distracted Boyfriend"
-      "https://i.imgflip.com/9ehk.jpg", // "Futurama Fry"
-      "https://i.imgflip.com/3si4.jpg", // "Y U No"
-      "https://i.imgflip.com/39t1o.jpg", // "Drakeposting"
+      "https://i.imgflip.com/1bij.jpg",
+      "https://i.imgflip.com/26am.jpg",
+      "https://i.imgflip.com/9ehk.jpg",
+      "https://i.imgflip.com/3si4.jpg",
+      "https://i.imgflip.com/39t1o.jpg",
     ];
   }
 
