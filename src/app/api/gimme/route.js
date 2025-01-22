@@ -10,3 +10,13 @@
 // {
 //   "url": "https://example.com/meme.jpg"
 // }
+
+import { NextResponse } from "next/server";
+import { MemeService } from "@/services/meme-service";
+
+const memeService = new MemeService();
+
+export async function GET() {
+  const randomMeme = memeService.generateRandomMeme();
+  return NextResponse.json({ meme: randomMeme.url }); // Serialization only
+}
